@@ -49,7 +49,7 @@ var up = vec3(0.0, 1.0, 0.0);
 
 var sizeOfDiscard = 1.8;
 var sizeOfDiscardLoc;
-var colorNumber = 0;
+var colorNumber = 500;
 
 window.onload = function init() {
 
