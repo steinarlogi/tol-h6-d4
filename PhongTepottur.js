@@ -203,13 +203,13 @@ function convertToRGB(value) {
     var r;
     var g;
 
-    if (value < 10) {
+    if (value < 100) {
         r = 0;
     } else {
         r = (parseInt(text[0]) + 1) / 10;
     }
 
-    if (value < 100) {
+    if (value < 10) {
         g = 0;
     } else {
         var g = (parseInt(text[1]) + 1) / 10;
